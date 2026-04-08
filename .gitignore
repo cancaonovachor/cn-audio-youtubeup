@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config & Secrets
+config/youtube_token.pickle
+config/client_secret.json
+.env
+
+# Output files
+output/
+audio/*.wav
+audio/*.mp3
+audio/*.flac
+audio/*.m4a
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+{
+  "project_name": "cn-audio-youtubeup",
+  "video": {
+    "resolution": "720p",
+    "fps": 30,
+    "video_bitrate": "500k",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 48000
+  },
+  "image": {
+    "logo_path": "./logo.PNG",
+    "logo_position": "center"
+  },
+  "youtube": {
+    "client_secret_file": "./config/client_secret.json",
+    "token_file": "./config/youtube_token.pickle",
+    "scopes": ["https://www.googleapis.com/auth/youtube.upload"]
+  },
+  "paths": {
+    "audio_input": "./audio",
+    "video_output": "./output",
+    "config_dir": "./config"
+  },
+  "upload": {
+    "default_category": "22",
+    "default_privacy_status": "private",
+    "default_language": "ja",
+    "auto_publish": false,
+    "title_template": "{filename}",
+    "description_template": "音声ファイル：{filename}\n\nアップロード日時：{timestamp}"
+  }
+}
