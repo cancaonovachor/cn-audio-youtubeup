@@ -17,6 +17,7 @@ ENV/
 # Config & Secrets
 config/youtube_token.pickle
 config/client_secret.json
+config/temp_image_*.png
 .env
 
 # Output files
